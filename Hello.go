@@ -1,12 +1,13 @@
 package main
 
-func HelloWorld() string {
-	//Insert your code here
+import "fmt"
 
-	//Do not remove this line here
+func HelloWorld() string {
+	messageHelloWorld := "Hello World from Go !!"
 	return messageHelloWorld
 }
 
 func main() {
 	HelloWorld()
+	fmt.Println("Hello World from Go !!")
 }
